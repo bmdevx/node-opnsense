@@ -1,6 +1,6 @@
 {
   "name": "node-opnsense",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "OPNsense API Client",
   "author": "bmdevx",
   "license": "GPL-3.0",
@@ -11,6 +11,9 @@
     "opnsense",
     "api"
   ],
+  "files": [
+    "src/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bmdevx/node-opnsense.git"
@@ -19,5 +22,6 @@
     "url": "https://github.com/bmdevx/node-opnsense/issues"
   },
   "homepage": "https://github.com/bmdevx/node-opnsense#readme",
-  "devDependencies": {}
+  "devDependencies": {},
+  "main": "index.js"
 }
