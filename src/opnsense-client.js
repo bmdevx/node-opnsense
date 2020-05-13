@@ -74,6 +74,8 @@ class OPNSenseClient {
             });
         });
     }
+
+
 }
 
 module.exports = OPNSenseClient;
